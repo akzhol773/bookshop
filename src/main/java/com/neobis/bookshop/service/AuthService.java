@@ -9,6 +9,7 @@ import com.neobis.bookshop.dtos.UserRequestDto;
 import com.neobis.bookshop.entities.User;
 import com.neobis.bookshop.exceptions.InvalidCredentialException;
 import com.neobis.bookshop.exceptions.UsernameAlreadyTakenException;
+import com.neobis.bookshop.util.JwtTokenUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

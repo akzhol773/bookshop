@@ -1,5 +1,10 @@
 package com.neobis.bookshop.mapper;
 
+import com.neobis.bookshop.dtos.OrderDto;
+import com.neobis.bookshop.entities.Order;
+import com.neobis.bookshop.entities.OrderItem;
+import com.neobis.bookshop.entities.User;
+import com.neobis.bookshop.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
