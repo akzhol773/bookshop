@@ -32,7 +32,6 @@ import java.util.List;
 public class AdminOrderController {
 
     private final OrderService orderService;
-    private final JwtTokenUtils jwtTokenUtils;
 
 
     @Operation(

@@ -19,7 +19,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+
 @Tag(name = "User Orders", description = "Controller for order objects")
 @ApiResponses({
         @ApiResponse(responseCode = "401", description = "User is not authorized", content = @Content),
