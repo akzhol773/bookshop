@@ -2,6 +2,7 @@ package com.neobis.bookshop.service;
 
 
 
+import com.neobis.bookshop.config.CustomUserDetails;
 import com.neobis.bookshop.dtos.JwtRequestDto;
 import com.neobis.bookshop.dtos.JwtResponseDto;
 import com.neobis.bookshop.dtos.UserDto;
