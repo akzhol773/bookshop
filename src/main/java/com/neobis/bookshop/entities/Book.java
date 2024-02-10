@@ -1,6 +1,7 @@
 package com.neobis.bookshop.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.neobis.bookshop.enums.BookStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
